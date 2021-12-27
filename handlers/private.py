@@ -9,9 +9,9 @@ from helpers.filters import other_filters2
 async def start(_, message: Message):
     await message.reply_sticker("CAADBQADkwMAAoQw2Ff0pyzi760bgwI")
     await message.reply_text(
-        f"""**- 𝙃𝙚𝙮 𝘼𝙢 𝘼𝙆 𝙓𝘿 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏 💛🐬,
+        f"""**- 𝙃𝙚𝙮 𝘼𝙢 𝘼𝙎𝙏𝙐 𝙓𝘿 𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏 💛🐬,
 
-- 𝙄 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥'𝙨 𝙫𝙤𝙞𝙘𝙚 𝙘𝙖𝙡𝙡. 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝙗𝙮 [𝘼𝙠](https://t.me/AK_XD_MUSIC) 💛🤞.
+- 𝙄 𝙘𝙖𝙣 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙞𝙣 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥'𝙨 𝙫𝙤𝙞𝙘𝙚 𝙘𝙖𝙡𝙡. 𝘿𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙙 𝙗𝙮 [𝘼𝙨𝙩𝙪](https://t.me/Astu_back) 💛🤞.
 
 𝘼𝙙𝙙 𝙢𝙚 𝙩𝙤 𝙮𝙤𝙪𝙧 𝙜𝙧𝙤𝙪𝙥 𝙖𝙣𝙙 𝙥𝙡𝙖𝙮 𝙢𝙪𝙨𝙞𝙘 𝙛𝙧𝙚𝙚𝙡𝙮 🐬💕**
         """,
@@ -19,7 +19,7 @@ async def start(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                         " 𝙊𝙬𝙣𝙚𝙧 ", url="https://t.me/Kingofkohnoor")
+                         " 𝙊𝙬𝙣𝙚𝙧 ", url="https://t.me/Astu_back")
                   ],[
                     InlineKeyboardButton(
                         "😈  𝙎𝙪𝙥𝙥𝙤𝙧𝙩", url="https://t.me/A_4_AMAN_0fficial"
@@ -29,7 +29,7 @@ async def start(_, message: Message):
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "➕ 𝘼𝙙𝙙 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕", url="https://t.me/AK_XD_MUSIC_BOT?startgroup=true"
+                        "➕ 𝘼𝙙𝙙 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥 ➕", url="https://t.me/AstumusicbotXD_bot?startgroup=true"
                     )]
             ]
         ),
@@ -38,7 +38,7 @@ async def start(_, message: Message):
 
 @Client.on_message(filters.command("start") & ~filters.private & ~filters.channel)
 async def gstart(_, message: Message):
-      await message.reply_text("""** 𝘼𝙡𝙤𝙣𝙚 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧 𝙄𝙨 𝙊𝙣𝙡𝙞𝙣𝙚 ✅**""",
+      await message.reply_text("""** 𝘼𝙨𝙩𝙪 𝙈𝙪𝙨𝙞𝙘 𝙋𝙡𝙖𝙮𝙚𝙧 𝙄𝙨 𝙊𝙣𝙡𝙞𝙣𝙚 ✅**""",
       reply_markup=InlineKeyboardMarkup(
             [
                 [
